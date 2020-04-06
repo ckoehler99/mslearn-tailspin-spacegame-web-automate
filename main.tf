@@ -48,7 +48,7 @@ resource "azurerm_app_service_plan" "spacegame" {
 
   sku {
     tier = "Basic"
-    size = "F1"
+    size = "B1"
   }
 }
 
